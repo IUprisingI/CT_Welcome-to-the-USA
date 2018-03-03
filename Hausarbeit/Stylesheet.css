@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Roboto-Medium' ;
+    src:  url("/fonts/Roboto-Medium.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Light' ;
+    src: url("/fonts/Roboto-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bold' ;
+    src: url("/fonts/Roboto-Bold.ttf") format('truetype');
+}
+/*Hauptseite*/
+* {
+    box-sizing: border-box;
+}
+/*Hintergrund*/
+.mainbackground{
+    background: url(Golden-Gate-Bridge.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.mainbackgroundcolor {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+/*Navigationsleiste*/
+.mainnavigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    box-shadow: 1px 10px 15px #626262;
+    padding-left: 5%;
+}
+.mainnavigationbar li {
+    float: left;
+}
+.mainnavigationbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Roboto-LightRoboto-Light',sans-serif;
+}
+.mainnavigationbar  li a:hover {
+    background-color: #232323;
+}
+/*Überschrift*/
+.mainheadingdiv  {
+    position: absolute;
+    border: none;
+    left: 5%;
+    top: 25%;
+}
+.mainheading {
+    font-family: 'Roboto-Medium' ,sans-serif;
+    color: white;
+}
+
+/*Nebenseiten*/
+
+/*Hintergrund*/
+.secondbackground {
+    background-color: #8d8d8d;
+    margin: 0;
+    padding: 0;
+}
+/*Überschrift*/
+.secondheading {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    padding-left: 2%;
+    overflow: hidden;
+}
+.secondheading a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+    float: left;
+    font-family: 'Roboto-Bold',sans-serif;
+}
+.secondheading a:hover {
+    background-color: #111111
+}
+/*Navigationsleiste*/
+
+.secondheadingnavigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    box-shadow: 1px 10px 15px #626262;
+    padding-left: 2%;
+}
+.secondheadingnavigationbar li {
+    float: left;
+}
+.secondheadingnavigationbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Roboto-LightRoboto-Light',sans-serif;
+}
+.secondheadingnavigationbar  li a:hover {
+    background-color: #232323;
+}
+.secondheadingnavigationbarsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0;
+}
